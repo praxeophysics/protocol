@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you reference these specifications or code, please cite them using the metadata below"
+type: software
+title: "Praxeophysics Protocol — Core Architecture, Dynamic Boundary Generative Model & Reference Specification"
+version: "4.2.0"
+license: "CC-BY-4.0"
+authors:
+  - name: "Praxeophysics Institute"
+    website: "https://praxeophysics.org"
+date-released: "2026-11-15"
+url: "https://praxeophysics.org"
+repository-code: "https://github.com/praxeophysics/protocol"
+abstract: "Domain-neutral core architecture, Dynamic Boundary Generative Model, and TypeScript reference implementation (v4.2.0), formalized directly from the pre-existing Prior IP baseline (v4.0.0 Baseline Specification, timestamped 2026-08-31)."

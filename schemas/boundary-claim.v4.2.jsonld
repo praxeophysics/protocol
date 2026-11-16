@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://praxeophysics.org/ns/protocol/v4.2"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "PraxeophysicsBoundaryClaim"
+  ],
+  "issuer": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+  "validFrom": "2026-11-15T00:00:00Z",
+  "credentialStatus": {
+    "id": "urn:praxeophysics:revocation:epoch-2026-11",
+    "type": "EpochRevocationList2026"
+  },
+  "credentialSubject": {
+    "id": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+    "ontologyRef": "urn:praxeophysics:ontology:core:v4.2",
+    "predicateCommitment": "0x9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "reconciliationProfile": {
+      "verificationMode": [
+        "SelectiveDisclosure",
+        "ZeroKnowledgeProof"
+      ],
+      "plausibleDeniabilityPooling": true,
+      "supportedDirectives": [
+        "COMPLEMENTARY_DELEGATION",
+        "INTERFACE_DECOUPLING",
+        "FRICTIONLESS_EXIT_SORTING",
+        "ALLOSTATIC_LOAD_RELIEF"
+      ]
+    }
+  }
+}

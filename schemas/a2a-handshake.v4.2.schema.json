@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://praxeophysics.org/schemas/a2a-handshake.v4.2.schema.json",
+  "title": "PraxeophysicsA2AHandshakeMessage",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "step",
+        "sessionId",
+        "ontologyRef",
+        "supportedModes"
+      ],
+      "properties": {
+        "step": {
+          "const": "1_SCHEMA_EXCHANGE"
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ontologyRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supportedModes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "SelectiveDisclosure",
+              "ZeroKnowledgeProof"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "step",
+        "sessionId",
+        "ontologyRef",
+        "ruleCircuitId",
+        "requiredDimensions"
+      ],
+      "properties": {
+        "step": {
+          "const": "2_REQUEST_POLICY"
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ontologyRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ruleCircuitId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requiredDimensions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "step",
+        "sessionId",
+        "verificationMode",
+        "predicateCommitment",
+        "pooledFlags"
+      ],
+      "properties": {
+        "step": {
+          "const": "3_SUBMIT_PROOF"
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verificationMode": {
+          "enum": [
+            "SelectiveDisclosure",
+            "ZeroKnowledgeProof"
+          ]
+        },
+        "predicateCommitment": {
+          "type": "string",
+          "pattern": "^0x[0-9a-fA-F]{64}$"
+        },
+        "pooledFlags": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "step",
+        "sessionId",
+        "verified",
+        "directive"
+      ],
+      "properties": {
+        "step": {
+          "const": "4_ISSUE_SETTLEMENT"
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "directive": {
+          "enum": [
+            "COMPLEMENTARY_DELEGATION",
+            "INTERFACE_DECOUPLING",
+            "FRICTIONLESS_EXIT_SORTING",
+            "ALLOSTATIC_LOAD_RELIEF"
+          ]
+        }
+      }
+    }
+  ]
+}

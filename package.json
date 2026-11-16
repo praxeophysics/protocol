@@ -1,0 +1,39 @@
+{
+  "name": "@praxeophysics/core",
+  "version": "4.2.0",
+  "type": "module",
+  "description": "Reference TypeScript engine for the Praxeophysics Protocol (Dynamic Boundary Generative Model, Inverse Precision Inference, Plausible Deniability, Epoch Learning, and Multi-Blanket Reconciliation)",
+  "main": "dist/reference_engine.js",
+  "types": "dist/reference_engine.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/reference_engine.d.ts",
+      "import": "./dist/reference_engine.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.mjs",
+    "benchmark": "node simulations/benchmark.mjs"
+  },
+  "license": "Apache-2.0",
+  "author": "Praxeophysics Institute",
+  "homepage": "https://praxeophysics.org",
+  "keywords": [
+    "praxeophysics",
+    "active-inference",
+    "free-energy-principle",
+    "cybernetics",
+    "synallactics",
+    "mechanism-design",
+    "zero-knowledge-proofs",
+    "differential-privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praxeophysics/protocol.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

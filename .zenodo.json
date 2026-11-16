@@ -1,0 +1,26 @@
+{
+  "title": "Praxeophysics Protocol — Core Architecture, Dynamic Boundary Generative Model & Reference Specification v4.2.0",
+  "version": "4.2.0",
+  "publication_date": "2026-11-15",
+  "description": "Domain-neutral core architecture, Dynamic Boundary Generative Model (Prior-Precision-Load state parameterization and Allowable Tolerance Radius), Inverse Precision Inference, Plausible Deniability pooling, and TypeScript reference implementation of the Praxeophysics Protocol v4.2.0. This release is a direct mathematical formalization and derivative improvement of the pre-existing Prior IP baseline (Praxeophysics Protocol Baseline Specification v4.0.0, finalized and timestamped 2026-08-31).",
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Praxeophysics Institute",
+      "affiliation": "Praxeophysics Institute"
+    }
+  ],
+  "keywords": [
+    "Praxeophysics",
+    "Free Energy Principle",
+    "Active Inference",
+    "Cybernetics",
+    "Praxeology",
+    "Synallactics",
+    "Mechanism Design",
+    "Verifiable Credentials",
+    "Differential Privacy"
+  ]
+}

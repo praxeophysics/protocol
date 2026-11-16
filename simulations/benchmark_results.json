@@ -1,0 +1,341 @@
+{
+  "experiment1_dyadic_budget_sweep": [
+    {
+      "piBudget": 15,
+      "mode": "SCALAR_MIDPOINT",
+      "violation_pct": 0.14,
+      "mean_vfe": 0.2022,
+      "pre_overload_pct": 0.21,
+      "post_overload_pct": 0,
+      "directives_pct": null
+    },
+    {
+      "piBudget": 15,
+      "mode": "PRAXEOPHYSICS",
+      "violation_pct": 0,
+      "mean_vfe": 0.0474,
+      "pre_overload_pct": 0.2,
+      "post_overload_pct": 0,
+      "directives_pct": {
+        "COMPLEMENTARY_DELEGATION": 10.82,
+        "INTERFACE_DECOUPLING": 88.73,
+        "FRICTIONLESS_EXIT_SORTING": 0.05,
+        "ALLOSTATIC_LOAD_RELIEF": 0.4
+      }
+    },
+    {
+      "piBudget": 30,
+      "mode": "SCALAR_MIDPOINT",
+      "violation_pct": 1.34,
+      "mean_vfe": 0.3501,
+      "pre_overload_pct": 0.24,
+      "post_overload_pct": 0,
+      "directives_pct": null
+    },
+    {
+      "piBudget": 30,
+      "mode": "PRAXEOPHYSICS",
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0737,
+      "pre_overload_pct": 0.2,
+      "post_overload_pct": 0,
+      "directives_pct": {
+        "COMPLEMENTARY_DELEGATION": 14.85,
+        "INTERFACE_DECOUPLING": 83.82,
+        "FRICTIONLESS_EXIT_SORTING": 0.93,
+        "ALLOSTATIC_LOAD_RELIEF": 0.4
+      }
+    },
+    {
+      "piBudget": 50,
+      "mode": "SCALAR_MIDPOINT",
+      "violation_pct": 2.19,
+      "mean_vfe": 0.4696,
+      "pre_overload_pct": 0.34,
+      "post_overload_pct": 0.01,
+      "directives_pct": null
+    },
+    {
+      "piBudget": 50,
+      "mode": "PRAXEOPHYSICS",
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0842,
+      "pre_overload_pct": 0.16,
+      "post_overload_pct": 0,
+      "directives_pct": {
+        "COMPLEMENTARY_DELEGATION": 18.39,
+        "INTERFACE_DECOUPLING": 79.7,
+        "FRICTIONLESS_EXIT_SORTING": 1.58,
+        "ALLOSTATIC_LOAD_RELIEF": 0.33
+      }
+    },
+    {
+      "piBudget": 100,
+      "mode": "SCALAR_MIDPOINT",
+      "violation_pct": 2.83,
+      "mean_vfe": 0.6414,
+      "pre_overload_pct": 0.72,
+      "post_overload_pct": 0.28,
+      "directives_pct": null
+    },
+    {
+      "piBudget": 100,
+      "mode": "PRAXEOPHYSICS",
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0863,
+      "pre_overload_pct": 0.23,
+      "post_overload_pct": 0,
+      "directives_pct": {
+        "COMPLEMENTARY_DELEGATION": 19.38,
+        "INTERFACE_DECOUPLING": 78.39,
+        "FRICTIONLESS_EXIT_SORTING": 1.77,
+        "ALLOSTATIC_LOAD_RELIEF": 0.46
+      }
+    }
+  ],
+  "experiment2_pool_matching": [
+    {
+      "poolSize": 20,
+      "mode": "SCALAR_NEAREST_K2",
+      "active_cohort_rate_pct": 100,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0,
+      "solo_niche_rate_pct": 0,
+      "violation_pct": 0.7,
+      "mean_vfe": 0.1623,
+      "pre_overload_pct": 0.17,
+      "post_overload_pct": 0.03,
+      "mean_terminal_capacity": 0.9709
+    },
+    {
+      "poolSize": 20,
+      "mode": "SCALAR_WEIGHTED_K2",
+      "active_cohort_rate_pct": 100,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0,
+      "solo_niche_rate_pct": 0,
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0578,
+      "pre_overload_pct": 0.24,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9838
+    },
+    {
+      "poolSize": 20,
+      "mode": "PRAXEOPHYSICS_COHORT_K2",
+      "active_cohort_rate_pct": 99.68,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0.16,
+      "solo_niche_rate_pct": 0.16,
+      "violation_pct": 0,
+      "mean_vfe": 0.0189,
+      "pre_overload_pct": 0.16,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9804
+    },
+    {
+      "poolSize": 20,
+      "mode": "PRAXEOPHYSICS_COHORT_K4",
+      "active_cohort_rate_pct": 99.81,
+      "mean_cohort_size": 3.99,
+      "load_relief_rate_pct": 0.17,
+      "solo_niche_rate_pct": 0.02,
+      "violation_pct": 0,
+      "mean_vfe": 0.0331,
+      "pre_overload_pct": 0.17,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9798
+    },
+    {
+      "poolSize": 100,
+      "mode": "SCALAR_NEAREST_K2",
+      "active_cohort_rate_pct": 100,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0,
+      "solo_niche_rate_pct": 0,
+      "violation_pct": 0.14,
+      "mean_vfe": 0.0621,
+      "pre_overload_pct": 0.18,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9728
+    },
+    {
+      "poolSize": 100,
+      "mode": "SCALAR_WEIGHTED_K2",
+      "active_cohort_rate_pct": 100,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0,
+      "solo_niche_rate_pct": 0,
+      "violation_pct": 0.13,
+      "mean_vfe": 0.0463,
+      "pre_overload_pct": 0.3,
+      "post_overload_pct": 0.09,
+      "mean_terminal_capacity": 0.9736
+    },
+    {
+      "poolSize": 100,
+      "mode": "PRAXEOPHYSICS_COHORT_K2",
+      "active_cohort_rate_pct": 99.7,
+      "mean_cohort_size": 2,
+      "load_relief_rate_pct": 0.16,
+      "solo_niche_rate_pct": 0.14,
+      "violation_pct": 0,
+      "mean_vfe": 0.0107,
+      "pre_overload_pct": 0.16,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9805
+    },
+    {
+      "poolSize": 100,
+      "mode": "PRAXEOPHYSICS_COHORT_K4",
+      "active_cohort_rate_pct": 99.78,
+      "mean_cohort_size": 3.99,
+      "load_relief_rate_pct": 0.22,
+      "solo_niche_rate_pct": 0,
+      "violation_pct": 0,
+      "mean_vfe": 0.0192,
+      "pre_overload_pct": 0.22,
+      "post_overload_pct": 0,
+      "mean_terminal_capacity": 0.9793
+    }
+  ],
+  "experiment3_epistemic_exploration": [
+    {
+      "mode": "SCALAR_MIDPOINT",
+      "mean_epistemic_gain_nats": 0.425,
+      "frontier_exploration_pct": 71.21,
+      "dark_room_retreat_pct": 12.44,
+      "violation_pct": 3.88
+    },
+    {
+      "mode": "PRAXEOPHYSICS",
+      "mean_epistemic_gain_nats": 0.4963,
+      "frontier_exploration_pct": 76.26,
+      "dark_room_retreat_pct": 0.22,
+      "violation_pct": 0.02
+    }
+  ],
+  "experiment4_hyperparameter_sensitivity": [
+    {
+      "lambda": 0.5,
+      "alpha": 0.1,
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0855,
+      "terminal_capacity": 0.9934
+    },
+    {
+      "lambda": 0.7,
+      "alpha": 0.15,
+      "violation_pct": 0.01,
+      "mean_vfe": 0.0854,
+      "terminal_capacity": 0.9755
+    },
+    {
+      "lambda": 0.85,
+      "alpha": 0.25,
+      "violation_pct": 0.02,
+      "mean_vfe": 0.0858,
+      "terminal_capacity": 0.9601
+    }
+  ],
+  "experiment5_cross_domain_use_cases": {
+    "use_case_5A_hospitality_retail": [
+      {
+        "use_case": "5A_Hospitality_Retail_Silent_Boundary",
+        "mode": "POLITE_SILENCE_TATEMAE",
+        "silent_churn_pct": 74.1,
+        "mean_vfe": 2.9526,
+        "stigma_exposure_pct": 0
+      },
+      {
+        "use_case": "5A_Hospitality_Retail_Silent_Boundary",
+        "mode": "VERBAL_CONFESSION",
+        "silent_churn_pct": 0,
+        "mean_vfe": 0.0101,
+        "stigma_exposure_pct": 100
+      },
+      {
+        "use_case": "5A_Hospitality_Retail_Silent_Boundary",
+        "mode": "PRAXEOPHYSICS_DENIABLE_ENVELOPE",
+        "silent_churn_pct": 0,
+        "mean_vfe": 0.0102,
+        "stigma_exposure_pct": 30.61
+      }
+    ],
+    "use_case_5B_group_dining_travel": [
+      {
+        "use_case": "5B_Group_Dining_Travel_Tatemae",
+        "mode": "GROUP_CHAT_TATEMAE",
+        "group_success_pct": 0,
+        "member_violation_group_pct": 100,
+        "mean_member_vfe": 3.972,
+        "privacy_exposure_pct": 0
+      },
+      {
+        "use_case": "5B_Group_Dining_Travel_Tatemae",
+        "mode": "RAW_GROUP_CONFESSION",
+        "group_success_pct": 100,
+        "member_violation_group_pct": 0,
+        "mean_member_vfe": 0.8179,
+        "privacy_exposure_pct": 100
+      },
+      {
+        "use_case": "5B_Group_Dining_Travel_Tatemae",
+        "mode": "PRAXEOPHYSICS_ENVELOPE_INTERSECTION",
+        "group_success_pct": 100,
+        "member_violation_group_pct": 0,
+        "mean_member_vfe": 0.8179,
+        "privacy_exposure_pct": 30.61
+      }
+    ],
+    "use_case_5C_dating_coliving": [
+      {
+        "use_case": "5C_Dating_CoLiving_Relational_Topology",
+        "mode": "DATING_APP_1D_HOBBY",
+        "co_living_breakup_pct": 26.8,
+        "mean_pair_vfe": 0.6225,
+        "duality_delegation_share_pct": 0,
+        "modular_parallel_share_pct": 0
+      },
+      {
+        "use_case": "5C_Dating_CoLiving_Relational_Topology",
+        "mode": "HOMOGENEITY_6D_MIDPOINT",
+        "co_living_breakup_pct": 9,
+        "mean_pair_vfe": 0.3092,
+        "duality_delegation_share_pct": 0,
+        "modular_parallel_share_pct": 0
+      },
+      {
+        "use_case": "5C_Dating_CoLiving_Relational_Topology",
+        "mode": "PRAXEOPHYSICS_RELATIONAL_TOPOLOGY",
+        "co_living_breakup_pct": 0,
+        "mean_pair_vfe": 0.0491,
+        "duality_delegation_share_pct": 20,
+        "modular_parallel_share_pct": 80
+      }
+    ],
+    "use_case_5D_adr_settlement": [
+      {
+        "use_case": "5D_Bilateral_ADR_Contract_Settlement",
+        "mode": "SPLIT_DIFFERENCE_BLUFFING",
+        "settled_pct": 67.6,
+        "bluff_incentive_pct": 100,
+        "threshold_exposure_pct": 100
+      },
+      {
+        "use_case": "5D_Bilateral_ADR_Contract_Settlement",
+        "mode": "PLAIN_MEDIATOR_ESCROW",
+        "settled_pct": 75,
+        "bluff_incentive_pct": 0,
+        "threshold_exposure_pct": 100
+      },
+      {
+        "use_case": "5D_Bilateral_ADR_Contract_Settlement",
+        "mode": "PRAXEOPHYSICS_POSTED_REFERENCE_ZKP",
+        "settled_pct": 75,
+        "bluff_incentive_pct": 0,
+        "threshold_exposure_pct": 0
+      }
+    ]
+  }
+}
